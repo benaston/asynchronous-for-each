@@ -1,0 +1,39 @@
+{
+  "name": "asynchronous-for-each",
+  "version": "0.0.1",
+  "description": "An asynchronous implementation of forEach.",
+  "keywords": [],
+  "homepage": "https://github.com/benaston/asynchronous-for-each",
+  "bugs": {
+    "url": "https://github.com/benaston/asynchronous-for-each/issues",
+    "email": "ben@bj.ma"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "main": "dist/asynchronous-for-each.min.js",
+  "private": false,
+  "dependencies": {
+    "kwire": "0.4.0",
+    "mixx": "0.1.0",
+    "niid": "0.0.6",
+    "noopaam": "0.0.2",
+    "sprest": "0.0.4"
+  },
+  "author": {
+    "name": "Ben Aston",
+    "email": "ben@bj.ma",
+    "url": "http://www.bj.ma"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-replace": "^0.7.8",
+    "jasmine-node": "^1.14.5"
+  },
+  "repository": "git@github.com:benaston/asynchronous-for-each.git"
+}
